@@ -17,7 +17,7 @@
                     <ul class="navbar-nav">
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">
+                            <a class="nav-link" href="/">
                                 <p class="underline_hover_links">Home</p>
                             </a>
                         </li>

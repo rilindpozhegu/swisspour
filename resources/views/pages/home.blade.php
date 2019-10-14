@@ -28,7 +28,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<h3 class="title" data-aos="fade-up">About<br>swisspour</h3>
+				<h3 class="title" data-aos="fade-up">About<br>swissPour</h3>
 				<div class="text-center-tab-port" data-aos="fade-up"><a href="#"><img class="logo" src="/img/logo.svg" alt="logo"></a></div>
 			</div>
 			<div class="col-md-4">
@@ -71,15 +71,15 @@
 					SwissPour SA is a Swiss company based in Moutier that aims to take over and continue the production of the automatic pouring machines created in Switzerland more than 30 years ago.
 				</p>
 
-				<a class="btn btn-black" href="#">Contact</a>
+				<a class="btn btn-black" href="mailto:info@swisspour.com">Contact</a> 
 			</div>
 			<div class="col-md-9">
 				<div class="pdf_list">
 					<div class="download_box" data-aos="fade-left" data-aos-delay="200">
 						<img class="img-fluid download-box-img" src="img/HPOvw_EN_Page_1.jpg">
 						<div class="dw">
-							<a class="dw-link" href="#">Download PDF</a>
-							<a href="#">
+							<a class="dw-link" href="img/HPOvw_EN.pdf" target="_blank">Download PDF</a>
+							<a href="img/HPOvw_EN.pdf" target="_blank">
 								<div class="dw-icon"></div>
 							</a>
 						</div>
@@ -87,8 +87,8 @@
 					<div class="download_box" data-aos="fade-left" data-aos-delay="300">
 						<img class="img-fluid download-box-img" src="img/HPOvw_EN_Page_2.jpg">
 						<div class="dw">
-							<a class="dw-link" href="#">Download PDF</a>
-							<a href="#">
+							<a class="dw-link" href="img/HPOvw_EN.pdf" target="_blank">Download PDF</a>
+							<a href="img/HPOvw_EN.pdf" target="_blank">
 								<div class="dw-icon"></div>
 							</a>
 						</div>

@@ -26,27 +26,27 @@
 					<div class="footer__menu-bar">
 						<ul class="contacts-info">
 							<li>
-								<a href="#" class="underline">
+								<a href="/" class="underline">
 									Home
 								</a>
 							</li>
 							<li>
-								<a href="#" class="underline">
+								<a href="#activities" class="underline">
 									Activities
 								</a>
 							</li>
 							<li>
-								<a href="#" class="underline">
+								<a href="#product" class="underline">
 									Product
 								</a>
 							</li>
 							<li>
-								<a href="#" class="underline">
+								<a href="#partners" class="underline">
 									Partners
 								</a>
 							</li>
 							<li>
-								<a href="#" class="underline">
+								<a href="#contact" class="underline">
 									Contact
 								</a>
 							</li>
@@ -54,7 +54,7 @@
 					</div>
 
 				</div>
-					<a href="#" class="btn btn-orange">Download our brochure</a>
+					<a target="_blank" href="img/HPOvw_EN.pdf" class="btn btn-orange">Download our brochure</a>
 			</div>
 		</div>
 	</div>

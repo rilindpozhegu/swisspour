@@ -1,4 +1,7 @@
-
+html {
+	scroll-behavior: smooth;
+  }
+  
 .btn-transp {
     width: 180px;
     border: 1.5px solid #fff;
@@ -122,6 +125,9 @@
 .download_box {
 	width: 33%;
 	margin: 20px;
+}
+.download_box a:hover {
+	color: #EC8351;
 }
 .download_box:nth-child(2) {
 	margin-top: -20px;
