@@ -1,5 +1,5 @@
     <!--when to change the color-->
-    <nav class="navbar navbar-toggleable-md sm_overlay_nav fixed-top navbar-transparent navigation_bar"> 
+    <nav class="navbar give_nav navbar-toggleable-md sm_overlay_nav fixed-top navbar-transparent navigation_bar"> 
     <!-- 200! Default -->
         <div class="container">
             <div class="navbar-translate">

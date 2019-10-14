@@ -61,3 +61,8 @@
 	}
 }
 	
+.scrolled {
+    background: #21221F !important;
+	padding-top: 15px !important;
+	transition: ease all 0.3s;
+}

@@ -3,7 +3,7 @@
 <head>
     <title>SwissPour</title>
     <meta charset="utf-8">
-    <link rel="icon" href="img/Group 122216.png">
+    <link rel="icon" href="img/Group 152.png">
     <meta name="theme-color" content="#272F34" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
@@ -45,6 +45,21 @@
     vertical: true,
     horizontal: false
   });
+</script>
+<script>
+$(function() {
+    var header = $(".give_nav");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+  
+});
 </script>
 </body>
 
