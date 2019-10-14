@@ -150,8 +150,8 @@
                 zoom: 16,
                 scrollwheel: !1,
                 center: {
-                    lat: 25.0771753,
-                    lng: 55.1496346
+                    lat: 47.275942,
+                    lng: 7.366999
                 },
                 styles: [{
                     featureType: "water",
@@ -272,11 +272,11 @@
             });
             new google.maps.Marker({
                 position: {
-                    lat: 25.0771753,
-                    lng: 55.1496346
+                    lat: 47.275942,
+                    lng: 7.366999
                 },
                 map: e,
-                icon: "img/Group 703.png"
+                icon: "img/Group 152.png"
             })
         }
     </script>
