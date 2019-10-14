@@ -110,15 +110,15 @@
     -ms-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0); }
   .navbar-collapse:before {
-    background: white;
+    background: #21221F;
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#020A19 80%,#ddd 100%);
+    /* background: -webkit-linear-gradient(#020A19 80%,#ddd 100%); */
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#020A19 80%,#ddd 100%);
+    /* background: -o-linear-gradient(#020A19 80%,#ddd 100%); */
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#020A19 80%,#ddd 100%);
+    /* background: -moz-linear-gradient(#020A19 80%,#ddd 100%); */
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#020A19 80%,#ddd 100%);
+    /* background: linear-gradient(#020A19 80%,#ddd 100%); */
     /* Standard syntax (must be last) */
     opacity: 0.86;
     filter: alpha(opacity=76);
@@ -129,7 +129,8 @@
     height: 100%;
     top: 0;
     left: 0;
-    z-index: -1; }
+    /* z-index: -1;  */
+  }
   .menu-on-left .navbar-collapse {
     right: auto;
     left: 0;

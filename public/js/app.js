@@ -45,20 +45,23 @@ app.run(function($rootScope, $http, $timeout) {
           loop:true,
           margin:10,
           center: false,
-          dots: true,
-          autoplay:true,
-          autoplayTimeout:5000,
+          dots: false,
+          autoplay:false,
           autoplayHoverPause:true,
           responsive:{
           0:{
               items:1,
-              nav:true
+              nav:true,
+              dots: true,
+              autoplayTimeout:5000,
           },
           600:{
-              items:1,
+              items:3,
+              dots: true,
+              autoplayTimeout:5000,
           },
           1000:{
-              items:1,
+              items:4,
           }
         }
       });
@@ -66,36 +69,20 @@ app.run(function($rootScope, $http, $timeout) {
   
       }, 1000)
 
-    $rootScope.globalRequest = {
+      $rootScope.globalRequest = {
         "global":[     
             {
-                "type":"news",
+                "type":"activities",
                 "limit": 'all'
             },
             {
-                "type":"contact",
+                "type":"contacts",
                 "limit": 'all'
             },
             {
-                "type":"f_investments",
+                "type":"s_contacts",
                 "limit": 'all'
             },
-            {
-                "type":"team-members",
-                "limit": 'all'
-            },
-            {
-                "type":"pdf",
-                "limit": 'all'
-            },
-            {
-                "type":"slider_top",
-                "limit": 'all'
-            },
-            {
-                "type":"testimonial_one",
-                "limit": 'all'
-            }
         ]
     };
 

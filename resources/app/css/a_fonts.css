@@ -17,7 +17,7 @@ p {
   line-height: 30px;
 }
 .title {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Bai Jamjuree', sans-serif;
 }
 button:active {
   outline: none !important;
@@ -65,3 +65,10 @@ a:hover {
   margin: 15px 0px;
   border-top: solid 2px #BBAC78;
 }
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1380px;
+      max-width: 100%;
+    }
+  }

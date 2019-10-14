@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}" ng-app="alrayan1">
 <head>
-    <title>WallWood</title>
+    <title>SwissPour</title>
     <meta charset="utf-8">
     <link rel="icon" href="img/Group 122216.png">
     <meta name="theme-color" content="#272F34" />
@@ -13,6 +13,7 @@
     <script src="{{url('v4 bootstrap/bootstrap/bootstrap.min.js')}}"></script>
     <script  src="{{url('js/app.js')}}"></script>
     <script src="/js/notify.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{url('v4 bootstrap/bootstrap/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('css/build.min.css')}}">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,6 +30,22 @@
     @yield('content')
 </div>
 @include('includes.footer')
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.js"></script>
+    <script>
+  // Also can pass in optional settings block
+  var rellax = new Rellax('.rellax', {
+    speed: 2,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+</script>
 </body>
 
 </html>

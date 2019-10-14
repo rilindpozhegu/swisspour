@@ -10,96 +10,54 @@
 @media only screen and (max-width: 1000px) {
     .mobile-d-n {
    		display: none;
+	  }	
+	  body {
+		  overflow-x: hidden !important;
 	  }
-	
-	.blogBox {
+	  .background-img {
+		  display: block;
+		  padding-top: 20vh;
+	  }
+	  .intro-section__content {
+		  display: block;
+	  }
+	  .intro-section__welcome p {
+		  width: 100%;
+		  font-size: 16px;
+	  }
+	  .activitites_editable, .products_section {
+		padding: 4% 4%;
+	}	
+	.owl-carousel .owl-item img {
+		display: block;
 		width: 100%;
-		margin: 10px 1%;
-	}
-	.blogTxt h6 {
-		font-size: 20px;
-	}
-	.blogTxt p {
-		font-size: 13px;
-	}
-	.text_secti_about {
-		padding: 5vh 2vh;
-	}
-	.membership_section {
-		background: black;
-	}
-	.member_text {
-		background: white;
-	}
-	.member_card {
-		margin: 7px 2px;
-	}
-	.service_item {
-		height: auto;
-		width: 100%;
-		margin: .5%;
-	}
-	.services_section .row {
-		flex-direction: row;
-	}
-	.services_section .row {
-		height: auto !important; 
-		max-height: none !important;
-	}
-	[type=reset], [type=submit], button, html [type=button] {
-			background: transparent;
-	}
-	.navbar-toggler-right {
-		margin-top: 10px;
-	}
-	.cover_homepage {
-		padding: 30vh 10px 25vh;
-	}
-	
-	.footer_all_pages {
-		padding: 10vh 10px;
-		text-align: center;
-	}
-
-	.footer_all_pages hr {
-		display: none;
-	}
-	.service_item img {
-		width: 100%;
-		height: 400px;
+		height: 40vh;
 		object-fit: cover;
 	}
-	.related_1 {
-			padding: 15% 10%;
-
+	.pdf_list {
+		display: block;
+		width: 100%;
+		justify-content: flex-end;
 	}
-	.item_big_news_one .blogTxt {
-    position: absolute;
-    top: 25vh;
-    left: 15%;
-    right: 15%;
-    z-index: 99;
-    color: #fff;
-    text-align: center;
+	.download_box {
+		width: 70%;
+		margin: 47px auto;
 	}
-
-	.carousel_mod .carousel-caption {
-		top: 24vh;
-		text-align: left;
+	.partners_section {
+		padding: 10% 0px;
 	}
-
-	.tradingview-widget-container {
-		height:88px !important;
+	.partner_holder {
+		margin: 15px 7px;
+		padding: 5px 10px 0;
+		background: #fff;
 	}
-	.carousel_mod h5, .cover_homepage h2 {
-    font-size: 35px;
-    color: #fff;
-}
-.carousel_mod p {
-	font-size: 13px;
-}
-.carousel_mod .default_button  {
-	margin-top: 10px !important;
-}
+	.footer {		
+		text-align: left !important;
+		padding: 20px;
+		float: left !important;
+	}
+	.btn-orange {
+		float: left;
+	}
 }
 	

@@ -9,7 +9,7 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
                 <a class="navbar-brand" href="/home">
-                    <img src="/img/Wallwood Capital Management DMCC logo.svg">
+                    <img src="/img/logo.svg">
                 </a>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
