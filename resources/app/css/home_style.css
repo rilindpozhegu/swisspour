@@ -1,7 +1,7 @@
 html {
 	scroll-behavior: smooth;
   }
-  
+
 .btn-transp {
     width: 180px;
     border: 1.5px solid #fff;
@@ -208,7 +208,7 @@ html {
 .contacts-section {
 	padding: 4% 0px;
 }
-.contacts-section h2 {
+.contacts-section h2 { 
     font-size: 40px;
     font-weight: 700;
 }

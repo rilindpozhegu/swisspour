@@ -15,8 +15,8 @@
 					</p>
 				</div>
 				<div class="intro-section__buttons">
-					<div class="intro-button"><a href="#" class="btn btn-transp">Product brochure</a></div>
-					<div class="intro-button"><a href="#" class="btn btn-transp">Countact us</a></div>
+					<div class="intro-button"><a href="img/HPOvw_EN.pdf" target="_blank" class="btn btn-transp">Product brochure</a></div>
+					<div class="intro-button"><a href="mailto:info@swisspour.com" class="btn btn-transp">Countact us</a></div>
 				</div>
 			</div>
 		</div>
