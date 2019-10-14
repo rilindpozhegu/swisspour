@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 
-<section class="intro-section">
+<section class="intro-section" id="home">
 	<div class="background-img full-width-image" style="background-image: linear-gradient(0deg, rgba(33,34,31,1) 0%, rgba(33,34,31,0) 80%, rgba(33,34,31,0) 100%), url(/img/Group 151.jpg);">
 		<div class="container">
 			<div class="intro-section__content grid-2">
@@ -46,7 +46,7 @@
 </section>
 
 
-<section class="activitites_editable">
+<section id="products" class="activitites_editable">
 	<div class="container">
 		<div class="row">
 			<div ng-if="includes.global" class="owl-carousel owl-theme testimonial-carousel">
