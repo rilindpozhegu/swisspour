@@ -59,6 +59,21 @@
 	.btn-orange {
 		float: left;
 	}
+	.management_sales .info_holder {
+		width: 100%;
+	}
+	.contacts-section {
+		padding: 10% 0px;
+	}
+	.footer__menu-bar li {
+		float: left;
+		padding: 0 4px;
+	}
+	.about-section {
+		background: #21221F;
+		color: #fff;
+		padding: 20% 0;
+	}
 }
 	
 .scrolled {
