@@ -40,6 +40,7 @@ html {
 	color: white;
 	font-weight: bold;
 	font-size: 70px;
+	margin-bottom: 30px;
 }
 
 .intro-section__welcome p {
@@ -77,6 +78,11 @@ html {
 }
 .activitites_editable {
 	padding: 4% 0px;
+}
+.activitites_editable h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 .activities_card_slide img{
 	transition: ease-in-out all 0.3s;
@@ -130,7 +136,7 @@ html {
 	color: #EC8351;
 }
 .download_box:nth-child(2) {
-	margin-top: -20px;
+	/* margin-top: -20px; */
 }
 .download_box a {
 	color: #21221F;
@@ -179,6 +185,13 @@ html {
 	padding: 5px 10px 0px;
 	background: white;
 }
+.partner_holder:hover {
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.32), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.2);
+	cursor: pointer;
+}
+.partner_holder a {
+	color: #21221F;
+}
 .partner_holder img {
 	width: 50%;
 	height: 40px;
@@ -210,7 +223,8 @@ html {
 }
 .contacts-section h2 { 
     font-size: 40px;
-    font-weight: 700;
+	font-weight: 700;
+	margin-bottom: 30px;
 }
 .footer {
 	background: #21221F;

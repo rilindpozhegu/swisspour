@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="intro-section__content grid-2">
 				<div class="intro-section__welcome">
-					<h2 class="intro-heading title rellax">Welcome to <br>SwissPour</h2>
+					<h2 class="intro-heading title rellax">Welcome</h2>
 					<p class="paragraph-primary intro-section__welcome--msg">
 						{!!$one['cover']['collections']['description']['en']!!}
 					</p>
@@ -45,9 +45,9 @@
 	</div>
 </section>
 
-
-<section id="products" class="activitites_editable">
+<section id="activities" class="activitites_editable">
 	<div class="container">
+        <h2>Activities</h2>
 		<div class="row">
 			<div ng-if="includes.global" class="owl-carousel owl-theme testimonial-carousel">
 				<div class="activities_card_slide" ng-repeat="testimonials in includes.global.many[0]['activities']">
@@ -65,13 +65,13 @@
 		<div class="row">
 			<div class="col-md-3">
 				<h3 class="title" data-aos="fade-up" data-aos-delay="300">Products</h3>
-				<p class="paragraph-primary below-title" data-aos="fade-up" data-aos-delay="400">New Machines</p>
+				<p class="paragraph-primary below-title" data-aos="fade-up" data-aos-delay="400">Machines</p>
 
-				<p class="heading-paragraph paragraph-primary"  data-aos="fade-up" data-aos-delay="450">
+				<!-- <p class="heading-paragraph paragraph-primary"  data-aos="fade-up" data-aos-delay="450">
 					SwissPour SA is a Swiss company based in Moutier that aims to take over and continue the production of the automatic pouring machines created in Switzerland more than 30 years ago.
 				</p>
 
-				<a class="btn btn-black" href="mailto:info@swisspour.com">Contact</a> 
+				<a class="btn btn-black" href="mailto:info@swisspour.com">Contact</a>  -->
 			</div>
 			<div class="col-md-9">
 				<div class="pdf_list">
@@ -87,10 +87,10 @@
 					<div class="download_box" data-aos="fade-left" data-aos-delay="300">
 						<img class="img-fluid download-box-img" src="img/HPOvw_EN_Page_2.jpg">
 						<div class="dw">
-							<a class="dw-link" href="img/HPOvw_EN.pdf" target="_blank">Download PDF</a>
+							<!-- <a class="dw-link" href="img/HPOvw_EN.pdf" target="_blank">Download PDF</a>
 							<a href="img/HPOvw_EN.pdf" target="_blank">
 								<div class="dw-icon"></div>
-							</a>
+							</a> -->
 						</div>
 					</div>
 				</div>
@@ -106,9 +106,10 @@
 				<h3 class="title" data-aos="fade-up" data-aos-delay="300">Our partners</h3>
 			</div>
 			<div class="col-md-9">
-				<div class="partner_holder" data-aos="fade-up" data-aos-delay="400">
+				<a href="https://www.easysa.com/en/" target="_blank"><div class="partner_holder" data-aos="fade-up" data-aos-delay="400">
 					<img class="partner-img" src="img/homelogo.svg">
-					<p class="partner-desc paragraph-primary">Electronics and software</p>
+                    <p class="partner-desc paragraph-primary">Electronics and software</p>
+                </a>
 				</div>
 				<div class="partner_holder" data-aos="fade-up" data-aos-delay="400">
 					<img class="partner-img" src="img/Hubo Engineering Gmbh.svg">
@@ -118,8 +119,8 @@
 		</div>
 	</div>
 </section>
-<div id="map" style="height: 500px;"></div>
-<section id="contact" class="contacts-section">
+
+<section class="contacts-section">
 	<div class="container">
 		<h2>Contact us</h2>
 		<div class="row">
@@ -144,6 +145,7 @@
 		</div>
 	</div>
 </section>
+<div id="map" style="height: 500px;"></div>
 <script>
         function initMap() {
             var e = new google.maps.Map(document.getElementById("map"), {

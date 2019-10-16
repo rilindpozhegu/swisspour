@@ -15,7 +15,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="tel:+41 32 494 80 70">
 							<i class="fa fa-phone"></i><span>+41 32 494 80 70</span>
 						</a>
 					</li>

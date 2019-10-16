@@ -17,13 +17,18 @@
                     <ul class="navbar-nav">
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="/">
+                            <a class="nav-link" href="#home">
                                 <p class="underline_hover_links">Home</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">
-                                <p class="underline_hover_links">About us</p>
+                                <p class="underline_hover_links">About Us</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#activities">
+                                <p class="underline_hover_links">Activities</p>
                             </a>
                         </li>
                         <!-- <li class="nav-item">
@@ -33,7 +38,7 @@
                         </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#products">
-                                <p class="underline_hover_links">Products</p>
+                                <p class="underline_hover_links">Product</p>
                             </a>
                         </li>
                         <li class="nav-item">
