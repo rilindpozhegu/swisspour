@@ -73,7 +73,7 @@
 			</div>
 			<div class="col-md-9">
 				<div class="pdf_list">
-					<div class="download_box" data-aos="fade-left" data-aos-delay="200">
+					<div class="download_box" data-aos="fade-up" data-aos-delay="200">
 						<img class="img-fluid download-box-img" src="img/HPOvw_EN_Page_1.jpg">
 						<div class="dw">
 							<a class="dw-link" href="img/HPOvw_EN.pdf" target="_blank">Download PDF</a>
@@ -82,7 +82,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="download_box" data-aos="fade-left" data-aos-delay="300">
+					<div class="download_box" data-aos="fade-up" data-aos-delay="300">
 						<img class="img-fluid download-box-img" src="img/HPOvw_EN_Page_2.jpg">
 						<div class="dw">
 							<!-- <a class="dw-link" href="img/HPOvw_EN.pdf" target="_blank">Download PDF</a>
@@ -100,11 +100,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img data-aos="fade-left" data-aos-delay="300" src="img/Mask Group 187.png" alt="" srcset="">
+                <img data-aos="fade-up" data-aos-delay="300" src="img/Mask Group 187.png" alt="" srcset="">
             </div>
             <div class="col-md-6">
-                <h3 data-aos="fade-left" data-aos-delay="400">Peripheral<br>Equipments</h3>
-                <ul data-aos="fade-left" data-aos-delay="500">
+                <h3 data-aos="fade-up" data-aos-delay="400">Peripheral<br>Equipments</h3>
+                <ul data-aos="fade-up" data-aos-delay="500">
                     <li>With integrated weighing system</li>
                     <li>With special injection nozzle for inoculant accleration</li>
                     <li>With monitoring of level, pressure and flow</li>
