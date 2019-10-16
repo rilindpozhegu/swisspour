@@ -66,11 +66,9 @@
 			<div class="col-md-3">
 				<h3 class="title" data-aos="fade-up" data-aos-delay="300">Products</h3>
 				<p class="paragraph-primary below-title" data-aos="fade-up" data-aos-delay="400">Machines</p>
-
 				<!-- <p class="heading-paragraph paragraph-primary"  data-aos="fade-up" data-aos-delay="450">
 					SwissPour SA is a Swiss company based in Moutier that aims to take over and continue the production of the automatic pouring machines created in Switzerland more than 30 years ago.
 				</p>
-
 				<a class="btn btn-black" href="mailto:info@swisspour.com">Contact</a>  -->
 			</div>
 			<div class="col-md-9">
@@ -98,7 +96,23 @@
 		</div>
 	</div>
 </section>
-
+<section class="peripheral_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img data-aos="fade-left" data-aos-delay="300" src="img/Mask Group 187.png" alt="" srcset="">
+            </div>
+            <div class="col-md-6">
+                <h3 data-aos="fade-left" data-aos-delay="400">Peripheral<br>Equipments</h3>
+                <ul data-aos="fade-left" data-aos-delay="500">
+                    <li>With integrated weighing system</li>
+                    <li>With special injection nozzle for inoculant accleration</li>
+                    <li>With monitoring of level, pressure and flow</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 <section id="partners" class="partners_section">
 	<div class="container">
 		<div class="row">
