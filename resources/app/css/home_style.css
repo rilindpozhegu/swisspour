@@ -62,7 +62,7 @@ html {
   font-weight: bold;
 }
 .about-section img {
-  width: 100px;
+  width: 200px;
 }
 
 .our-activities-section {
@@ -78,12 +78,15 @@ html {
   padding: 10px;
 }
 .activitites_editable {
-  padding: 4% 0px;
+  padding: 4% 0px 1%;
 }
 .activitites_editable h2 {
   font-weight: 700;
   font-size: 40px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+}
+.activitites_editable p {
+  margin-bottom: 20px;
 }
 .activities_card_slide img {
   transition: ease-in-out all 0.3s;
@@ -127,11 +130,11 @@ html {
 .pdf_list {
   display: flex;
   width: 100%;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 .download_box {
-  width: 33%;
-  margin: 20px;
+  width: 48%;
+  margin: 30px 20px;
 }
 .download_box a:hover {
   color: #ec8351;
@@ -146,15 +149,24 @@ html {
   font-weight: bold;
 }
 .download_box img {
-  box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14),
-    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  width: 100%;
 }
 .dw {
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 0px 5px;
+  color: #21221f !important;
+  width: 200px;
+}
+.dw a {
+  color: black;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: bold;;
+}
+.dw a:hover {
+  color: #ec8351;
 }
 .dw-icon {
   background-image: url("../img/download-cloud.svg");
@@ -163,6 +175,7 @@ html {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 30px;
 }
 
 .partners_section {
@@ -213,7 +226,7 @@ html {
 }
 
 .management_sales .info_holder {
-  width: 50%;
+  width: 100%;
 }
 
 .management_sales h4 {
@@ -292,18 +305,26 @@ html {
   left: 0;
   background: #fff;
 }
-
+.center {
+  text-align: center;
+}
 .peripheral_section {
   padding: 4% 0px;
 }
-.peripheral_section .col-md-6:first-child {
-  text-align: center;
+.peripheral_section .row {
+  justify-content: center;
 }
 .peripheral_section .row {
 	align-items: center;
 }
 .peripheral_section img {
-	width: 65%;
+	width: 100%;
+}
+.peripheral_section .col-md-6 {
+  padding: 0px;
+}
+.peripheral_section .text_add {
+  padding: 30px;
 }
 .peripheral_section h3 {
     font-weight: 700;
