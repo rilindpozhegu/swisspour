@@ -20,6 +20,9 @@ html {
 .intro-section {
   height: 80vh;
 }
+.intro-section span {
+  color: #ec8351;
+}
 .background-img {
   display: flex;
   align-items: flex-end;
@@ -90,6 +93,8 @@ html {
 }
 .activities_card_slide img {
   transition: ease-in-out all 0.3s;
+  height: 300px;
+  object-fit: cover;
 }
 .activities_card_slide:hover img {
   transform: translateY(-10px);
@@ -110,6 +115,10 @@ html {
 }
 .products_section {
   padding: 4% 0px;
+}
+.products_section h4 {
+  font-weight: 700;
+  font-size: 40px;
 }
 .products_section .row {
   align-items: center;

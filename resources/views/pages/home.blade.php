@@ -11,7 +11,7 @@
                 <div class="intro-section__welcome">
                     <h2 class="intro-heading title rellax">Welcome</h2>
                     <p class="paragraph-primary intro-section__welcome--msg">
-                        {!!$one['cover']['collections']['description']['en']!!}
+                    Welcome to SwissP<span>o</span>ur, manufacturer of automatic machines for the foundries.
                     </p>
                 </div>
                 <div class="intro-section__buttons">
@@ -63,6 +63,7 @@
 
 <section id="products" class="products_section">
     <div class="container">
+        <h4>Products</h4>
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
