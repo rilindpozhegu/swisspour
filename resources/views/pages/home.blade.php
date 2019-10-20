@@ -53,7 +53,7 @@
             <div ng-if="includes.global" class="owl-carousel owl-theme testimonial-carousel">
                 <div class="activities_card_slide" ng-repeat="testimonials in includes.global.many[0]['activities']">
                     <img ng-src="/img/manjakos/<%testimonials['collections']['image']%>">
-                    <h6 class="title"><%testimonials['collections']['title']['en']%></h6>
+                    <a href="#<%testimonials['collections']['title']['en']%>"><h6 class="title"><%testimonials['collections']['title']['en']%></h6></a>
                     <!-- <p ng-bind-html="testimonials['collections']['description']['en']"></p> -->
                 </div>
             </div>
@@ -67,7 +67,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="machines">
                         <h3 class="title" data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 15px;">Machines</h3>
                         <p>SwissPour SA studies your request and offers you the<br> solution adapted to your needs in terms of design, <br>capacity and produc-tivity.</p>
                         <a href="img/HPOvw_EN.pdf" target="_blank">
@@ -111,7 +111,7 @@
 <section class="peripheral_section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="peripheral">
                 <img data-aos="fade-up" data-aos-delay="300" src="img/imag (1).jpg" alt="" srcset="">
             </div>
             <div class="col-md-6 text_add">
@@ -127,7 +127,7 @@
             <div class="col-md-6 desktop-d-n">
                 <img data-aos="fade-up" data-aos-delay="300" src="img/imag (3).jpg" alt="" srcset="">
             </div>
-            <div class="col-md-6 text_add">
+            <div class="col-md-6 text_add" id="upgrade">
                 <h3 data-aos="fade-up" data-aos-delay="400">Upgrade/Update <br>
                     Of Existing Lines</h3>
                 <ul data-aos="fade-up" data-aos-delay="500">
@@ -139,7 +139,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="spare">
                 <img data-aos="fade-up" data-aos-delay="300" src="img/imag (2).jpg" alt="" srcset="">
             </div>
             <div class="col-md-6 text_add">

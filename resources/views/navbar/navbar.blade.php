@@ -38,7 +38,7 @@
                         </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#products">
-                                <p class="underline_hover_links">Product</p>
+                                <p class="underline_hover_links">Products</p>
                             </a>
                         </li>
                         <li class="nav-item">
