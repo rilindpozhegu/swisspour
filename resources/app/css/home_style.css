@@ -101,7 +101,7 @@ html {
   transition: ease-in-out all 0.3s;
 }
 .activities_card_slide:hover h6 {
-  color: #ec8351; 
+  color: #000; 
   transition: ease-in-out all 0.3s;
 }
 .activities_card_slide h6 {
