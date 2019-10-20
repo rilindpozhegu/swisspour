@@ -113,6 +113,10 @@ html {
 .activities_card_slide p {
   width: 90%;
 }
+.activities_card_slide a {
+  color: #21221f;
+  text-decoration: none;
+}
 .products_section {
   padding: 4% 0px;
 }
