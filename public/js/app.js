@@ -54,14 +54,18 @@ app.run(function($rootScope, $http, $timeout) {
               nav:true,
               dots: true,
               autoplayTimeout:5000,
+              mouseDrag: true,
           },
           600:{
               items:3,
               dots: true,
               autoplayTimeout:5000,
+              mouseDrag: false,
           },
           1000:{
               items:4,
+              dots: false,
+              mouseDrag: false,
           }
         }
       });
