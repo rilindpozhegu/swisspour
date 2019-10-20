@@ -65,9 +65,9 @@
     <div class="container">
         <h4>Products</h4>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" id="machines">
                 <div class="row">
-                    <div class="col-md-6" id="machines">
+                    <div class="col-md-6">
                         <h3 class="title" data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 15px;">Machines</h3>
                         <p>SwissPour SA studies your request and offers you the<br> solution adapted to your needs in terms of design, <br>capacity and produc-tivity.</p>
                         <a href="img/HPOvw_EN.pdf" target="_blank">
