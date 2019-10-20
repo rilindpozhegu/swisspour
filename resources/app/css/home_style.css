@@ -109,6 +109,7 @@ html {
   font-weight: bold;
   margin-top: 20px;
   transition: ease-in-out all 0.3s;
+  text-align: center;
 } 
 .activities_card_slide p {
   width: 90%;
