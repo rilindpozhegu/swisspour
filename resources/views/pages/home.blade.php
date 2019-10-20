@@ -185,6 +185,7 @@
                         <div class="info_holder" ng-repeat="contact1 in includes.global.many[1]['contacts']">
                             <h4 class="title"><%contact1['collections']['title']['en']%></h4>
                             <p ng-bind-html="contact1['collections']['info']['en']"></p>
+                            <a href="">test</a>
                         </div>
                     </div>
                 </div>

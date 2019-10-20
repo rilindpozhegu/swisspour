@@ -152,9 +152,6 @@ html {
 .download_box a:hover {
   color: #ec8351;
 }
-.download_box:nth-child(2) {
-  /* margin-top: -20px; */
-}
 .download_box a {
   color: #21221f;
   text-decoration: none;
@@ -251,13 +248,13 @@ html {
 .contacts-section {   
   padding: 4% 0px;
 }
-.contacts-section a {
-  text-decoration: none;
-  color: #ec8351;
-  opacity: 0.7;
+.contacts-section p a {
+  text-decoration: none !important;
+  color: #ec8351 !important;
+  opacity: 0.7 !important;
 }
-.contacts-section a:hover {
-  opacity: 1;
+.contacts-section p a:hover {
+  opacity: 1 !important;
 }
 .contacts-section h2 {
   font-size: 40px;
