@@ -53,7 +53,7 @@
             <div ng-if="includes.global" class="owl-carousel owl-theme testimonial-carousel">
                 <div class="activities_card_slide" ng-repeat="testimonials in includes.global.many[0]['activities']">
                     <img ng-src="/img/manjakos/<%testimonials['collections']['image']%>">
-                    <a href="#<%testimonials['collections']['title']['en']%>"><h6 class="title"><%testimonials['collections']['title']['en']%></h6></a>
+                    <a href="#<%testimonials['collections']['s_contacts']['en']%>"><h6 class="title"><%testimonials['collections']['title']['en']%></h6></a>
                     <!-- <p ng-bind-html="testimonials['collections']['description']['en']"></p> -->
                 </div>
             </div>
