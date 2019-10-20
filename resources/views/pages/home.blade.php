@@ -173,7 +173,7 @@
     </div>
 </section>
 
-<section class="contacts-section">
+<section class="contacts-section" id="contact">
     <div class="container">
         <h2>Contact us</h2>
         <div class="row">
