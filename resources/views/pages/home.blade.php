@@ -204,7 +204,7 @@
 </section>
 <script>
     function initMap() {
-        var e = new google.maps.Map(document.getElementById("map"), {
+        var e = new google.maps.Map(document.getElementById("map"), { 
             zoom: 16,
             scrollwheel: !1,
             center: {
