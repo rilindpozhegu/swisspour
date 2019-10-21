@@ -8,7 +8,7 @@ body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px #fff; 
     /*-webkit-border-radius: 10px;*/
     /*border-radius: 10px;*/
-    background: #fff;
+    background: #fff; 
 }
  
 /* Handle */
@@ -16,6 +16,6 @@ body::-webkit-scrollbar-thumb {
     /*-webkit-border-radius: 10px;*/
     /*border-radius: 10px;*/
     background: #292b2c; 
-    -webkit-box-shadow: inset 0 0 6px transparent; 
+    -webkit-box-shadow: inset 0 0 6px transparent ; 
 }
 
