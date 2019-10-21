@@ -5,19 +5,19 @@
 @section('content')
 
 <section class="intro-section" id="home">
-    <div class="background-img full-width-image" style="background-image: linear-gradient(0deg, rgba(33,34,31,1) 0%, rgba(33,34,31,0) 80%, rgba(33,34,31,0) 100%), url(/img/Group 151.jpg);">
+    <div class="background-img full-width-image" style="background-image: linear-gradient(0deg, rgba(33,34,31,1) 0%, rgba(33,34,31,0) 80%, rgba(33,34,31,0) 100%), url(/img/Pouring.JPG);">
         <div class="container">
             <div class="intro-section__content grid-2">
-                <div class="intro-section__welcome">
-                    <h2 class="intro-heading title rellax">Welcome</h2>
-                    <p class="paragraph-primary intro-section__welcome--msg">
+                <div class="intro-section__welcome" style="width: 100%; text-align: center;">
+                    <h2 class="intro-heading title rellax"style="width: 100%;">Welcome</h2>
+                    <p class="paragraph-primary intro-section__welcome--msg" style="width: 100%;">
                     Welcome to SwissP<span>o</span>ur, manufacturer of automatic machines for the foundries.
                     </p>
                 </div>
-                <div class="intro-section__buttons">
-                    <div class="intro-button"><a href="img/HPOvw_EN.pdf" target="_blank" class="btn btn-transp">Product brochure</a></div>
-                    <div class="intro-button"><a href="mailto:info@swisspour.com" class="btn btn-transp">Countact us</a></div>
-                </div>
+                <!--<div class="intro-section__buttons">-->
+                <!--    <div class="intro-button"><a href="img/HPOvw_EN.pdf" target="_blank" class="btn btn-transp">Product brochure</a></div>-->
+                <!--    <div class="intro-button"><a href="mailto:info@swisspour.com" class="btn btn-transp">Countact us</a></div>-->
+                <!--</div>-->
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@
             <div ng-if="includes.global" class="owl-carousel owl-theme testimonial-carousel">
                 <div class="activities_card_slide" ng-repeat="testimonials in includes.global.many[0]['activities']">
                     <img ng-src="/img/manjakos/<%testimonials['collections']['image']%>" style="height: 300px; ">
-                    <a href="#<%testimonials['collections']['id_section']['en']%>" style="color: #21221f; text-decoration: none;"><h6 class="title"><%testimonials['collections']['title']['en']%></h6></a>
+                    <a href="#<%testimonials['collections']['id_section']['en']%>" style="color: #21221f; text-decoration: none; text-align: center;"><h6 class="title"><%testimonials['collections']['title']['en']%></h6></a>
                     <!-- <p ng-bind-html="testimonials['collections']['description']['en']"></p> -->
                 </div>
             </div>
@@ -63,12 +63,12 @@
 
 <section id="products" class="products_section">
     <div class="container">
-        <h4>Products</h4>
+        <h4 style="font-size: 40px; font-weight:700;">Products</h4>
         <div class="row">
             <div class="col-md-12" id="machines">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="title" data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 15px;">Machines</h3>
+                        <h3 class="title" data-aos="fade-up" data-aos-delay="300" style="margin-bottom: 15px; font-size:24px;">Machines</h3>
                         <p>SwissPour SA studies your request and offers you the<br> solution adapted to your needs in terms of design, <br>capacity and produc-tivity.</p>
                         <a href="img/HPOvw_EN.pdf" target="_blank">
                             <div class="dw">
@@ -95,7 +95,7 @@
                         <img class="img-fluid download-box-img" src="img/imag (4).jpg">
                     </div>
                     <div class="download_box" data-aos="fade-up" data-aos-delay="300">
-                        <img class="img-fluid download-box-img" src="img/imag (5).jpg">
+                        <img class="img-fluid download-box-img" src="img/HPOvw_EN_Page_2.jpg">
                         <div class="dw">
                             <!-- <a class="dw-link" href="img/HPOvw_EN.pdf" target="_blank">Download PDF</a>
 							<a href="img/HPOvw_EN.pdf" target="_blank">
@@ -115,7 +115,7 @@
                 <img data-aos="fade-up" data-aos-delay="300" src="img/imag (1).jpg" alt="" srcset="">
             </div>
             <div class="col-md-6 text_add">
-                <h3 data-aos="fade-up" data-aos-delay="400">Peripheral<br>Equipments</h3>
+                <h3 data-aos="fade-up" data-aos-delay="400" style="font-size:24px;">Peripheral<br>Equipments</h3>
                 <ul data-aos="fade-up" data-aos-delay="500">
                     <li>With integrated weighing system</li>
                     <li>With special injection nozzle for inoculant accleration</li>
@@ -123,12 +123,12 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="upgrade">
             <div class="col-md-6 desktop-d-n">
                 <img data-aos="fade-up" data-aos-delay="300" src="img/imag (3).jpg" alt="" srcset="">
             </div>
-            <div class="col-md-6 text_add" id="upgrade">
-                <h3 data-aos="fade-up" data-aos-delay="400">Upgrade/Update <br>
+            <div class="col-md-6 text_add">
+                <h3 data-aos="fade-up" data-aos-delay="400" style="font-size:24px;" id="upgrade">Upgrade/Update <br>
                     Of Existing Lines</h3>
                 <ul data-aos="fade-up" data-aos-delay="500">
                     <li>Our modular solutions can also meet the evo-lution needs<br> with a partial or complete upgrade of your casting<br> equipment</li>
@@ -143,7 +143,7 @@
                 <img data-aos="fade-up" data-aos-delay="300" src="img/imag (2).jpg" alt="" srcset="">
             </div>
             <div class="col-md-6 text_add">
-                <h3 data-aos="fade-up" data-aos-delay="400">Spare Parts <br>Service</h3>
+                <h3 data-aos="fade-up" data-aos-delay="400" style="font-size:24px;">Spare Parts <br>Service</h3>
                 <ul data-aos="fade-up" data-aos-delay="500">
                     <li>We provide a long spare parts service on all our achievements. </li>
                 </ul>
@@ -185,7 +185,6 @@
                         <div class="info_holder" ng-repeat="contact1 in includes.global.many[1]['contacts']">
                             <h4 class="title"><%contact1['collections']['title']['en']%></h4>
                             <p ng-bind-html="contact1['collections']['info']['en']"></p>
-                            <a href="">test</a>
                         </div>
                     </div>
                 </div>
