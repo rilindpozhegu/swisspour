@@ -39,7 +39,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-webpack": "^1.7.0",
     "laravel-mix": "^1.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "phantomjs-prebuilt": "^2.1.6",
     "prerender-spa-plugin": "^2.1.0",
     "sass-loader": "^3.1.2",
